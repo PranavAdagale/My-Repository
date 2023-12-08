@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1 style="text-align: center;">Git and GitHub Tutorial</h1>
+    <p><b>Git</b> is a version control system. Version control system is a tool that helps to track changes in a code.</p>
+    <p><b>Github</b> is a website that allows developers to store and manage their code using Git.</p>
+    <h5>How to use Git?</h5>
+    <p>Git is a terminal that allows user to pull or push the code from <b>remote repo</b>(repos on github) to <b>local machine</b>(repos on user pc) or vicevrsa.</p>
+    <p><h3>1. Download git bash</h3> on the pc. After installing it we can check its version using <b><i>git --version</i></b> command.</p>
+    <p><h3>2. Configuring git</h3> It means that after after making on git files, from which name or email should the applied changes show.</p>
+    <p>There are types of git-config 1]Local- means we are making changes in specific file of repo from specific email or different email.
+         2]Global- If we want to use only one email not different then we can go with global...let's go with global one.</p>
+    <p><b><i>git config --global user.name "GitHub_account_uname</i></b></p>
+    <p><b><i>git config --global user.email "GitHub_account_email</i></b></p>
+    <p>Configured Successfully!</p>
+    <p>To get more info about configuration or configured or not. <br><b><i>git config --list</i></b></p>
+    <p>Commands can be types on git bash but it is better to use them on editors terminal.</p>  
+    <p><h3>3. clone(pulling) and Status</h3><b>clone- <i>git clone url</i></b><br>Here url is the link of the repo located on github account or we can also type 
+    <b><i>git clone https://github.com/Username/RepositoryName</i></b></p> 
+    <p><b>Status- <i>git status</i><br></b> Shows state of coding file. 4 kinds of status can be seened- <br><b>i.Untracked</b> If we create new file inside folder of clonned github repo then
+    we will see this status cause we created it on github but it is not added on github. <br><b>ii.Modified</b> When we change the code but not added on github.
+    <br><b>iii.Unmodified</b> Unchanged(normal).<br><b>iv.Staged</b> File is ready to be commited.</p>
+    <p><h3>4. Add and Commit </h3><b>add- <i>git add file_name OR git add .</i> where . means all files in current folder</b> Adds new or changed files 
+        of users working directory to git staging area. <br><b>commit- <i>git commit -m "some comment"</i></b> It is the record of change.</p>  
+        <p>Now change has been recorded but to update this change on github repo we use <b>push</b> command.</p>
+    <p><h3>5. Push</h3><b><i>git push origin main</i></b> Uploads local repository content to remote repository.</p>      
+
+</body>
+</html>
